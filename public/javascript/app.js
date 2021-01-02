@@ -1,20 +1,21 @@
 // Replace with your publishable key
 // https://dashboard.stripe.com/apikeys
-const STRIPE_PUBLISHABLE_KEY = 'pk_test_NzVWw6MB7fN3HSeAvVnyf5tx00hTu3Ukrk';
+const STRIPE_PUBLISHABLE_KEY = 'pk_live_NGGYpTwuhVCjLfgpJFsqiJJS00RTbdv5q3';
 
 // Replace with your tax ids
 // https://dashboard.stripe.com/tax-rates
-const taxRates = ['txr_1HCshzHYgolSBA35WkPjzOOi'];
+const taxRates = ['txr_1I5IIJLtOZvuR3f7caXXSZZD'];
 
-// Replace with your Firebase project config.
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyAEGmffBNUsVrdVS_iyiI4eUMOWWp4Q5dI',
-  authDomain: 'stripe-subs-ext.firebaseapp.com',
-  databaseURL: 'https://stripe-subs-ext.firebaseio.com',
-  projectId: 'stripe-subs-ext',
-  storageBucket: 'stripe-subs-ext.appspot.com',
-  messagingSenderId: '955066520266',
-  appId: '1:955066520266:web:ec7135a76fea7a1bce9a33',
+  apiKey: "AIzaSyC18nuxEbKfPT2-qlBEt1idDKLoNa1CXis",
+  authDomain: "star-kids-5d363.firebaseapp.com",
+  databaseURL: "https://star-kids-5d363-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "star-kids-5d363",
+  storageBucket: "star-kids-5d363.appspot.com",
+  messagingSenderId: "1002713886190",
+  appId: "1:1002713886190:web:81fb882438833cc490f2ff",
+  measurementId: "G-R78S0FVY6Z"
 };
 
 // Replace with your cloud functions location
